@@ -1,0 +1,21 @@
+{
+  "name": "blue-haven-web",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.39.3",
+    "three": "^0.161.0",
+    "@types/three": "^0.161.2",
+    "zustand": "^4.5.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.2.2",
+    "vite": "^5.0.8"
+  }
+}
